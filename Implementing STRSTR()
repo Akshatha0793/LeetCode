@@ -1,0 +1,7 @@
+def implementStr(haystack,needle):
+    if needle in haystack:
+        return haystack.find(needle)
+    else:
+        return -1
+
+print implementStr("hello","ll")
